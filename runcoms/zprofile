@@ -65,3 +65,8 @@ fi
 export PATH="/opt/homebrew/bin:$PATH"
 eval "$(pyenv init --path)"
 
+# Import the `jump-to-git-root` function:
+source ~/.zprezto/runcoms/jump-to-git-root.sh
+
+# Optional: make a short alias to it:
+alias bt=jump-to-git-root
